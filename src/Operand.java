@@ -1,5 +1,5 @@
 public class Operand extends Token {
-    public int value;
+    private int value;
 
     public Operand(int value) {
         this.value = value;
@@ -7,7 +7,7 @@ public class Operand extends Token {
 
     @Override
     public void accept(CalculatorVisitor visitor) {
-
+        visitor.visit(this);
     }
 
     public int getValue() {

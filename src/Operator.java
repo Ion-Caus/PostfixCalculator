@@ -7,7 +7,7 @@ public class Operator extends Token {
 
     @Override
     public void accept(CalculatorVisitor visitor) {
-
+        visitor.visit(this);
     }
 
     public Operation getOperation() {

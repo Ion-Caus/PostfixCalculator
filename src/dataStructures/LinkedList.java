@@ -1,6 +1,6 @@
-package DataStructures;
+package dataStructures;
 
-import Exceptions.EmptyListException;
+import exceptions.EmptyListException;
 
 public class LinkedList<T> implements List<T> {
     private Node<T> head;

@@ -1,6 +1,6 @@
-package DataStructures;
+package dataStructures;
 
-import Exceptions.EmptyListException;
+import exceptions.EmptyListException;
 
 public interface List<T> {
     boolean isEmpty();

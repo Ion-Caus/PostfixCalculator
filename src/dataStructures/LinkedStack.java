@@ -1,6 +1,6 @@
-package DataStructures;
+package dataStructures;
 
-import Exceptions.EmptyListException;
+import exceptions.EmptyListException;
 
 import java.util.EmptyStackException;
 
