@@ -51,6 +51,10 @@ public class CalculatorVisitor implements Calculator, Visitor {
     public int getResult() throws MalformedExpressionException {
         try {
             Operand result = (Operand) tokenStack.pop();
+
+            if (!tokenStack.isEmpty()) {
+                throw new MalformedExpressionException("Leftover operands.");
+            }
             return result.getValue();
         }
         catch (EmptyStackException e) {
