@@ -1,3 +1,5 @@
+package calculator;
+
 import dataStructures.LinkedStack;
 import exceptions.MalformedExpressionException;
 

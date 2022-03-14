@@ -1,3 +1,5 @@
+package calculator;
+
 public class Operator extends Token {
     private final Operation operation;
 

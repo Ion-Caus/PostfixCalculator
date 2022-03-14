@@ -1,5 +1,7 @@
+package calculator;
+
 public class Operand extends Token {
-    private int value;
+    private final int value;
 
     public Operand(int value) {
         this.value = value;
